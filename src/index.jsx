@@ -7,6 +7,7 @@ import Banner from './Banner';
 import Welcome from './Welcome';
 import Activities from './Activities';
 import LinkMenu from './LinkMenu';
+import Footer from './Footer';
 
 import {
   BrowserRouter as Router,
@@ -80,6 +81,7 @@ class App extends React.Component {
             <Route component={Welcome} />
           </Switch>
           
+          <Footer />
         </div>
       </Router>
     );

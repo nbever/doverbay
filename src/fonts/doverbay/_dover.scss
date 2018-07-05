@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'doverbay';
-  src:  url('fonts/doverbay/doverbay.eot?rx3o4o');
-  src:  url('fonts/doverbay/doverbay.eot?rx3o4o#iefix') format('embedded-opentype'),
-    url('fonts/doverbay/doverbay.ttf?rx3o4o') format('truetype'),
-    url('fonts/doverbay/doverbay.woff?rx3o4o') format('woff'),
-    url('fonts/doverbay/doverbay.svg?rx3o4o#doverbay') format('svg');
+  src:  url('fonts/doverbay/doverbay.eot?tfzv6k');
+  src:  url('fonts/doverbay/doverbay.eot?tfzv6k#iefix') format('embedded-opentype'),
+    url('fonts/doverbay/doverbay.ttf?tfzv6k') format('truetype'),
+    url('fonts/doverbay/doverbay.woff?tfzv6k') format('woff'),
+    url('fonts/doverbay/doverbay.svg?tfzv6k#doverbay') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-activities:before {
+  content: "\e911";
+}
 .icon-idaho:before {
   content: "\e900";
 }

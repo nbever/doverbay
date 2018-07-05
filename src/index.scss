@@ -1,4 +1,5 @@
 $brown: #786758;
+$dark_brown: #4f433a;
 $font_color: white;
 $yellow: #C1AE7C;
 $gray: #D3D4D9;
@@ -25,6 +26,10 @@ a {
   }
 }
 
+p {
+  margin-top: 4px;
+}
+
 .icon {
   font-family: 'doverbay';
   color: $yellow;
@@ -34,13 +39,29 @@ a {
   text-align: center;
 }
 
+.content {
+  padding: 12px;
+}
+
 .flex {
   display: flex;
 }
 
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: 'Just Skinny';
+}
+
 @import 'styles/banner';
+@import 'styles/footer';
 @import 'styles/welcome';
+@import 'styles/activities';
 @import 'styles/linkmenu';
 @import 'styles/images';
+@import 'styles/info-pages';
 
 @import 'styles/widgets/image-scroller';
+@import 'styles/widgets/topic-links';
+@import 'styles/widgets/quick-links';
+@import 'styles/widgets/topic';

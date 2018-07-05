@@ -1,0 +1,41 @@
+.quick-links {
+  background-color: $dark_brown;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 3px 16px 2px $green;
+  border: 1px solid $green;
+  display: flex;
+
+  .link {
+    color: $green;
+    text-align: center;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .label {
+    font-family: 'Just Skinny';
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  .image {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 4px;
+    min-width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border: 2px solid $green;
+    border-radius: $border_radius;
+    color: $green;
+
+    &:hover {
+      border-color: white;
+      color: white;
+    }
+  }
+
+}

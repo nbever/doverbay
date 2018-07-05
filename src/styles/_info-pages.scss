@@ -1,0 +1,12 @@
+.info-page {
+  
+  display: flex;
+  flex-direction: column;
+
+  .info-list {
+    position: absolute;
+    top: 224px;
+    bottom: 40px;
+    overflow: auto;
+  }
+}
