@@ -1,0 +1,46 @@
+$brown: #786758;
+$font_color: white;
+$yellow: #C1AE7C;
+$gray: #D3D4D9;
+$green: #929487;
+
+$border_radius: 6px;
+
+@import 'fonts/fonts';
+
+body {
+  font-family: 'Helvetica';
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  background-color: $brown;
+  color: $gray;
+}
+
+a {
+  color: white;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+
+.icon {
+  font-family: 'doverbay';
+  color: $yellow;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+@import 'styles/banner';
+@import 'styles/welcome';
+@import 'styles/linkmenu';
+@import 'styles/images';
+
+@import 'styles/widgets/image-scroller';

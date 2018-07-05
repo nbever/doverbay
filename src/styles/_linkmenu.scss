@@ -1,0 +1,25 @@
+.link-menu {
+  max-width: 200px;
+  transition: 200ms;
+  position: absolute;
+  z-index: 99;
+  right: 9px;
+  font-size: 22px;
+  min-width: 40%;
+  top: 32px;
+  border: 1px solid white;
+
+  .item-row {
+    height: 25px;
+    padding-left: 8px;
+    font-family: 'Just Skinny';
+    background-color: $gray;
+    color: black;
+
+    &:hover {
+      background-color: $green;
+      color: $gray;
+      font-weight: bolder;
+    }
+  }
+}

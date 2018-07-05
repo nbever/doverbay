@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'doverbay';
+  src:  url('fonts/doverbay/doverbay.eot?rx3o4o');
+  src:  url('fonts/doverbay/doverbay.eot?rx3o4o#iefix') format('embedded-opentype'),
+    url('fonts/doverbay/doverbay.ttf?rx3o4o') format('truetype'),
+    url('fonts/doverbay/doverbay.woff?rx3o4o') format('woff'),
+    url('fonts/doverbay/doverbay.svg?rx3o4o#doverbay') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'doverbay' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-idaho:before {
+  content: "\e900";
+}
+.icon-boat:before {
+  content: "\e901";
+}
+.icon-tech-help:before {
+  content: "\e902";
+}
+.icon-faq:before {
+  content: "\e903";
+}
+.icon-fishing:before {
+  content: "\e904";
+}
+.icon-food:before {
+  content: "\e905";
+}
+.icon-grill:before {
+  content: "\e906";
+}
+.icon-groceries:before {
+  content: "\e907";
+}
+.icon-hike:before {
+  content: "\e908";
+}
+.icon-ice-cream:before {
+  content: "\e909";
+}
+.icon-internet:before {
+  content: "\e90a";
+}
+.icon-kayak:before {
+  content: "\e90b";
+}
+.icon-mountain-bike:before {
+  content: "\e90c";
+}
+.icon-tech-support:before {
+  content: "\e90d";
+}
+.icon-tv:before {
+  content: "\e90e";
+}
+.icon-wine:before {
+  content: "\e90f";
+}
+.icon-home:before {
+  content: "\e910";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass2:before {
+  content: "\e94a";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
