@@ -41,6 +41,13 @@ p {
 
 .content {
   padding: 12px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $yellow;
+  }
 }
 
 .flex {
@@ -57,9 +64,11 @@ p {
 @import 'styles/footer';
 @import 'styles/welcome';
 @import 'styles/activities';
+@import 'styles/food';
 @import 'styles/linkmenu';
 @import 'styles/images';
 @import 'styles/info-pages';
+@import 'styles/whereis';
 
 @import 'styles/widgets/image-scroller';
 @import 'styles/widgets/topic-links';

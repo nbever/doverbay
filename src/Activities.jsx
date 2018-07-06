@@ -73,19 +73,19 @@ const Activities = () => {
           <div>
             Here are the lures that we've had success with:
             <div className="flex">
-              <div>
-                <div className="minnow" />
+              <div className="fish-box">
+                <div className="pic minnow" />
                 <div>Rapala small minnow</div>
               </div>
-              <div>
-                <div className="brown-fish" />
+              <div className="fish-box">
+                <div className="pic brown-fish" />
                 <div>Some sort of brown bigger fish (largemouth)</div>
               </div>
-              <div>
-                <div className="blue-fish" />
+              <div className="fish-box">
+                <div className="pic blue-fish" />
               </div>
-              <div>
-                <div className="plastic-worm"/>
+              <div className="fish-box">
+                <div className=" pic plastic-worm"/>
               </div>
             </div>
           </div>

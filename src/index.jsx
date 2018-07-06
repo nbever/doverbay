@@ -6,6 +6,8 @@ import './index.scss';
 import Banner from './Banner';
 import Welcome from './Welcome';
 import Activities from './Activities';
+import WhereIs from './WhereIs';
+import Food from './Food';
 import LinkMenu from './LinkMenu';
 import Footer from './Footer';
 
@@ -77,6 +79,8 @@ class App extends React.Component {
           <Banner menuClicked={this.menuClicked}/>
     
           <Switch>
+            <Route path="/whereis" component={WhereIs} />
+            <Route path="/food" component={Food} />
             <Route path="/activities" component={Activities} />
             <Route component={Welcome} />
           </Switch>

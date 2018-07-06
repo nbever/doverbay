@@ -7,4 +7,15 @@
       display: block;
     }
   }
+
+  .fish-box {
+    text-align: center;
+
+    .pic {
+      width: 48px;
+      height: 48px;
+      margin: auto;
+      background-size: contain;
+    }
+  }
 }
