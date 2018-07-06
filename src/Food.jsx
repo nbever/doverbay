@@ -6,6 +6,7 @@ import Topic from './widgets/Topic';
 const Food = () => {
 
   const links = [
+    {text: 'Coffee', image: 'icon-coffee', anchor: 'coffee'},
     {text: 'Groceries', image: 'icon-groceries', anchor: 'groceries'},
     {text: 'Ice Cream', image: 'icon-ice-cream', anchor: 'icecream'},
     {text: 'Pizza', image: 'icon-pizza', anchor: 'pizza' },
@@ -34,6 +35,18 @@ const Food = () => {
         </iframe>
       </div>
       <div className="info-list content">
+        <Topic
+          id="coffee"
+          title="Coffee"
+          image="icon-coffee"
+        >
+          <p>There are tons of coffee options around town so here is a small sampling.</p>
+          <div className="joeandroll groceries"/>
+          <p>This is a family favorite and right within biking/walking distance.  Just go back the way you came in and on the right hand side of the road you'll see a small unassuming hut.  The people here are awesome and so is everything the sell.  In particular you should ask about the ginger snaps because they are out of this world!  And of course, say 'hi' from us.</p>
+          <p>Another local option on the west side of town is Evans Brothers one block west of fifth on Church street.  They seem to be a local chain that's really popular.</p>
+          <p>A bit further north on fifth before the Big 5 sporting goods store is Kokanee coffee - another local shop my wife enjoys.</p>
+          <p>Panhandle cone and coffee also offers a good selection but I'm leaving that in the Ice Cream section because that is where they are the very best you'll find.</p>
+        </Topic>
         <Topic
           id="groceries"
           title="Groceries"

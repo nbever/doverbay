@@ -17,6 +17,12 @@ const WhereIs = () => {
               </td>
             </tr>
             <tr>
+              <td className="key">BluRay / DVD Player</td>
+              <td className="value">
+                Our BluRay player is upstairs in the loft, under the TV sandwiched between the modem and router.  Feel free to move it to any TV to connect it - just return it before you check out.
+              </td>
+            </tr>            
+            <tr>
               <td className="key">Board Games</td>
               <td className="value">
                 The closet on the far right in the upstairs loft has all of our games stacked up.  Puzzles as well... help yourself to anything in this closet and enjoy.  We plan to continually expand our little collection as it's a mainstay for our trips when we want to stay in.
