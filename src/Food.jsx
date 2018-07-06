@@ -27,14 +27,14 @@ const Food = () => {
           With two kids under 5 we admittedly have not been able to try everything Sandpoint has to offer - particularly when it comes to sit-down dinning or the night life.  But what we have tried and loved you can find here, and if you are able to go try some of the restaurants, bars and live music spots feel free to share your favorites.          
         </p>
         <p className="map-link"><a target="_blank" href="https://www.google.com/maps/d/embed?mid=13TCjkSgKsrBbrG_IdvywObgvXuvO5APR">A map to all listed locations!</a></p>
+      </div>
+      <div className="info-list content">
         <iframe 
           className="embedded-map"
           src="https://www.google.com/maps/d/embed?mid=13TCjkSgKsrBbrG_IdvywObgvXuvO5APR" 
           width="100%" 
-          height="240">
+          height="300">
         </iframe>
-      </div>
-      <div className="info-list content">
         <Topic
           id="coffee"
           title="Coffee"

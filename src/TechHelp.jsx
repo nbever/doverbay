@@ -49,7 +49,8 @@ const TechHelp = () => {
             </tbody>
           </table>
           <p>If the connection is not working you'll want to check the lights on the modem and router and compare them to this photo of "working".</p>
-          <div className="working-internet groceries" />
+          <div className="router groceries" />
+          <div className="modem groceries" />
           <p>Going left to right... the one with the 3 anetnnae is the router, next to that is the blu-ray player, lastly you have the modem from Northland.</p>
           <p>To reset the system, first disconnect and power everything down.  Start with the modem, connect it to the cable and turn it on, waiting for the lights to look like above before continuing.</p>
           <p>Assuming that was successful, connect the router ack to the modem and power it on again waiting for the lights to mimic the above photo.</p>
@@ -64,7 +65,16 @@ const TechHelp = () => {
           <p>While you're here, feel free to add or remove channels from the Roku devices and use your Netflix, Amazon Prime, Vudu, Hulu, SlingTV etc. accounts to access the content you'd like.  Or... start a trial on one of those services and find something new and cool!</p>
           <p>When you check out just remember to sign out so that you don't leave unfettered access for the next occupants.</p>
           <p>If you just want normal cable, it's connected in three of the cable jacks in the house.  The loft, the guest room and the large upstairs room.  On the Roku TVs select the "cable" option from the start up menu.  For the Sony Bravia you'll need to click the "source" button and cycle through until you get to the cable input</p>
+          <div className="rokucable groceries" />
           <p>Now... on the Sony sometimes it loses it's channels and you'll want to run it through the auto-program feature for them all to get added back.  Below is the screen sequence required to get this done:</p>
+          <p>First hit the "home" button on the remote to get to the menu</p>
+          <div className="autop-1 groceries" />
+          <p>Next select "Settings"</p>
+          <div className="autop-2 groceries" />
+          <p>Find the "Channels" options and select "Auto Program"</p>
+          <div className="autop-3 groceries" />
+          <p>When it's done you should see this...</p>
+          <div className="autop-4 groceries" />
         </Topic>
       </div>
     </div>

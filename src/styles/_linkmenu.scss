@@ -9,17 +9,26 @@
   top: 32px;
   border: 1px solid white;
 
+  @media only screen and (min-width: 600px) {
+    min-width: 250px;
+  }
+
   .item-row {
     height: 25px;
     padding-left: 8px;
     font-family: 'Just Skinny';
     background-color: $gray;
     color: black;
+    cursor: pointer;
 
     &:hover {
       background-color: $green;
       color: $gray;
       font-weight: bolder;
+    }
+
+    @media only screen and (min-width: 600px) {
+      font-size: 28px;
     }
   }
 }

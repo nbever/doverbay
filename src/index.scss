@@ -16,6 +16,10 @@ body {
   padding: 0px;
   background-color: $brown;
   color: $gray;
+
+  @media only screen and (min-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 a {
@@ -55,9 +59,13 @@ p {
 }
 
 .title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bolder;
   font-family: 'Just Skinny';
+
+  @media only screen and (min-width: 600px) {
+    font-size: 32px;
+  }
 }
 
 @import 'styles/banner';

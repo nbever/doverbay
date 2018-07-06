@@ -3,7 +3,6 @@
   .center {
     font-family: 'Just Skinny';
     font-weight: bolder;
-    font-size: 18px;
   }
 
   .house-pic {
@@ -12,11 +11,34 @@
     height: 150px;
     text-align: center;
     margin: auto;
+
+    @media only screen and (min-width: 600px) {
+      height: 300px;
+      max-width: 500px;
+    }
+  }
+
+  .backdrop {
+    display: none;
+
+    @media only screen and (min-width: 600px) {
+      position: absolute;
+      top: 0px;
+      left: -120px;
+      bottom: 35px;
+      right: 0px;
+      opacity: 0.1;
+      display: block;
+    }
   }
 
   .info-list {
-    top: 270px !important;
+    top: 40px !important;
     padding: 0px;
+
+    @media only screen and (min-width: 600px) {
+      top: 60px !important;
+    }
   }
 
   .about {

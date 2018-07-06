@@ -1,15 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Banner = ({menuClicked}) => {
+import {
+  withRouter
+} from 'react-router-dom';
+
+const Banner = ({menuClicked, history}) => {
   
+  const goHome = () => {
+    history.push('/home');
+  }
+
   return (
     <div className="banner">
-      <div className="image">
+      <div className="image" 
+        onClick={goHome}>
         <span className="icon icon-idaho" />
         <span className="icon icon-star-full" />
       </div>
-      <div className="title">
+      <div className="title" onClick={goHome}>
         Parkside Dover Bay
       </div>
       <div className="us">
@@ -22,7 +31,8 @@ const Banner = ({menuClicked}) => {
 };
 
 Banner.propTypes = {
-  menuClicked: PropTypes.func
+  menuClicked: PropTypes.func,
+  history: PropTypes.object
 };
 
-export default Banner;
+export default withRouter(Banner);

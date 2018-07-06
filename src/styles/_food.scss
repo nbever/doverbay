@@ -7,9 +7,17 @@
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
+
+    @media only screen and (min-width: 600px) {
+      height: 200px;
+    }
   } 
 
   .info-list {
     top: 270px !important;
+
+    @media only screen and (min-width: 600px) {
+      top: 240px !important;
+    }
   }
 }

@@ -5,9 +5,27 @@
     font-size: 18px;
     font-weight: bolder;
     width: 50px;
+
+    @media only screen and (min-width: 600px) {
+      font-size: 24px;
+      width: 80px;
+    }
   }
 
   .info-list {
     top: 270px !important;
   }
+
+  .groceries {
+    height: 100px;
+    width: 75%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+
+    @media only screen and (min-width: 600px) {
+      height: 200px;
+    }
+  } 
 }

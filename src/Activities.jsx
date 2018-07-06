@@ -29,14 +29,14 @@ const Activities = () => {
           We certainly haven't done everything in the area, but here are some things we have done and would highly recmomend.
         </p>
         <p className="map-link"><a target="_blank" href="https://www.google.com/maps/d/embed?mid=13TCjkSgKsrBbrG_IdvywObgvXuvO5APR">A map to all listed locations!</a></p>
+      </div>
+      <div className="info-list content">
         <iframe 
           className="embedded-map"
           src="https://www.google.com/maps/d/embed?mid=13TCjkSgKsrBbrG_IdvywObgvXuvO5APR" 
           width="100%" 
-          height="240">
+          height="300">
         </iframe>
-      </div>
-      <div className="info-list content">
         <Topic
           id="bike"
           title="Biking"
